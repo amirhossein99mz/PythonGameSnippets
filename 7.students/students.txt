@@ -1,0 +1,5 @@
+        computerScience   MathematicalAnlysis1  Geometry
+s320690       18                   30L             14
+s320134       12                   08              23
+s320564       30L                  28              24
+s320988       21                   10              28
