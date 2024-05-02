@@ -40,28 +40,29 @@ def read_files(discography):
     
 
 
-    #sorted(dict.items(),key=lambda itme:itme[0],reversed=True)
     
-    for i in range(len(years)):
+    for k in range(100):
+        for i in range(len(years)):
 
-        if i > 0:
-            if years[i] >= years[i-1]:
-                pass
-            elif years[i] < years[i-1]:
-                years[i-1],years[i] = years[i],years[i-1]
-        elif i < len(years)-1:
-            if years[i+1] >= years[i]:
-                continue
-            elif years[i+1] < years[i]:
-                years[i],years[i+1] = years[i+1],years[i]
+            if i > 0:
+                if years[i] >= years[i-1]:
+                    pass
+                elif years[i] < years[i-1]:
+                    years[i-1],years[i] = years[i],years[i-1]
+            elif i < len(years)-1:
+                if years[i+1] >= years[i]:
+                    continue
+                elif years[i+1] < years[i]:
+                    years[i],years[i+1] = years[i+1],years[i]
     
-    for year in years:
-        songs[year] = None
     
-    songs1 = list(sorted(songs.items(),key=lambda item:item[0]))
+    
+   
     songs = []
-    for line in songs1:
-        songs.append([line[0]])
+    for line in years:
+        songs.append([line])
+    
+    
 
 
     for i in range(len(files)):
@@ -104,7 +105,6 @@ def read_files(discography):
                 print(a)
         
     
-    print(years)
 
 
 def main():
