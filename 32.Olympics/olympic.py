@@ -119,7 +119,66 @@ def print1_result(field1,nation1 ,medal1):
             print(header1)
         print()
         print()
+    
 
+    print()
+    
+    print()
+
+    for i in range(len(nation1)):
+        print("nationality:",nation1[i][0])
+        nation1[i].pop(0)
+        print("name:",nation1[i][0][0][0])
+        print("field:",nation1[i][0][0][1])
+        print("medal:",nation1[i][0][0][2])
+        print("Date of birth:",end=" ")
+        header = f"{nation1[i][0][0][3][0]}"
+        header += ","
+        header += f"{nation1[i][0][0][3][1]}"
+        header += ","
+        header += f"{nation1[i][0][0][3][2]}"
+        print(header)
+        #print("nationality:",nation1[i][0][0][4])
+        if len(nation1[i][0][0][5]) == 1:
+            print(f"The athlete won the olympics games in the year :{nation1[i][0][0][5][0]} ")
+        else:
+            header1 = ("The athlete won the olympics games in the years:")
+            for j in range(len(nation1[i][0][0][5])-1):
+                header1 += (f"{nation1[i][0][0][5][j]}")
+                header1 += ","
+            header1 += (f"{nation1[i][0][0][5][-1]}")
+            print(header1)
+        print()
+        print()
+    
+
+    for i in range(len(medal1)):
+        print("medal:",medal1[i][0])
+        medal1[i].pop(0)
+        print("name:",medal1[i][0][0][0])
+        print("field:",medal1[i][0][0][1])
+        #print("medal:",nation1[i][0][0][2])
+        print("Date of birth:",end=" ")
+        header = f"{medal1[i][0][0][3][0]}"
+        header += ","
+        header += f"{medal1[i][0][0][3][1]}"
+        header += ","
+        header += f"{medal1[i][0][0][3][2]}"
+        print(header)
+        print("nationality:",medal1[i][0][0][4])
+        if len(medal1[i][0][0][5]) == 1:
+            print(f"The athlete won the olympics games in the year :{medal1[i][0][0][5][0]} ")
+        else:
+            header1 = ("The athlete won the olympics games in the years:")
+            for j in range(len(medal1[i][0][0][5])-1):
+                header1 += (f"{medal1[i][0][0][5][j]}")
+                header1 += ","
+            header1 += (f"{medal1[i][0][0][5][-1]}")
+            print(header1)
+        print()
+        print()
+    
+    print(medal1)
           
  
 def main():
