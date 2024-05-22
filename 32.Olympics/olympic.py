@@ -178,7 +178,7 @@ def print1_result(field1,nation1 ,medal1):
         print()
         print()
     
-    print(medal1)
+    
           
  
 def main():
