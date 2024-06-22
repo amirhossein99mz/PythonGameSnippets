@@ -1,123 +1,117 @@
-def read_worms(filename):
+def read_worms1_file(filename):
     try:
         with open(filename) as file:
-            file1 = file.read().split("\n")
-        
+            file2 = file.read().split("\n\n")
         worms = []
-        for line in file1:
-            line = line.split()
-            worms.append(line)
+        for line in file2:
+            line = line.split("\n")
+            for el in line:
+                el = el.split()
+                worms.append(el)
         
         return worms
-       
+    
     except OSError as err:
         print(err)
 
+def find_min_daitance_worms2(worms):
 
-def find_short_distance(worms):
+    word1 = str(input("1.Enter a word:"))
+    word2 = str(input("2.Enter a word:"))
 
-    worm1 = input("Enter a word : ")
-    worm2 = input("Enter a word : ")
-    
-
-
-    worm1_1 = []
-    worm2_2 = []
-
+    word11 = []
+    word22 = []
 
     for i in range(len(worms)):
-        new = []
+        new1 = [i]
+        new2 = [i]
         for j in range(len(worms[i])):
-            if worms[i][j] != worm1:
-                pass
-            elif worms[i][j] == worm1:
-                new.append(i+1)
-                new.append(j)
-        if len(new) == 0:
-            pass
-        else:
-            if len(new) == 6:
-                worm1_1.append(new[0:2])
-                worm1_1.append(new[2:])
-                worm1_1.append(new[4:])
-            elif len(new) == 4:
-                worm1_1.append(new[0:2])
-                worm1_1.append(new[2:])
-            elif len(new) == 2:
-                worm1_1.append(new)
-    
-
-    for i in range(len(worms)):
-        new = []
-        for j in range(len(worms[i])):
-            if worms[i][j] != worm2:
-                pass
-            elif worms[i][j] == worm2:
-                new.append(i+1)
-                new.append(j)
-        if len(new) == 0:
-            pass
-        else:
-            if len(new) == 6:
-                worm2_2.append(new[0:2])
-                worm2_2.append(new[2:])
-                worm2_2.append(new[4:])
-            elif len(new) == 4:
-                worm2_2.append(new[0:2])
-                worm2_2.append(new[2:])
-            elif len(new) == 2:
-                worm2_2.append(new)
-    
-    
- 
-    if len(worm1_1) == 0 or len(worm2_2) == 0:
-        print("The two words never appear in the same sequence")
-    
-    elif len(worm1_1) > 0 and  len(worm2_2) > 0:
-        distances = []
-        new = []
-        for line in worm1_1:
-            for el in worm2_2:
-                if line[0] != el[0]:
-                    continue
-                elif line[0] == el[0]:   
-                    new.append(line[0])
-                    new.append(line[1])
-                    new.append(el[1])
-                distances.append(new)
-                new = []
+            if worms[i][j] == word1:
+                new1.append(j)
+            elif worms[i][j] == word2:
+                new2.append(j)
+        if len(new1) > 1:
+            word11.append(new1)
         
-    
-        if len(distances) == 0:
-            print("The two words never appear in the same sequence")
+        if len(new2) > 1:
+            word22.append(new2)
 
-        else:
-            for i in range(len(distances)):
-               distance = abs(distances[i][1]-distances[i][2])
-               distances[i].append(distance)
-    
-        min = distances[0][-1]
-        sequence = 0
-        for i in range(len(distances)):
-            if distances[i][-1] >= min:
+    word111 = []
+    word222 = []
+    for word_1 in word11:
+        for word_2 in word22:
+            if word_1[0] != word_2[0]:
                 pass
             else:
-                min = distances[i][-1]
-                sequence = i
-        if sequence != 0:
-            print(f"Min distance: sequence {sequence} (distance = {min})")
-     
-                
+                word111.append(word_1)
+                word222.append(word_2)
     
-
-
- 
+    if len(word111) == len(word222) and len(word111) == 0:
+        print("The two words never appear in the same sequence")
+    else:
+        distances = []
+        for i in range(len(word111)):
+            new = []
+            for j in range(len(word222)):
+                if word111[i][0] == word222[j][0]:
+                    new.append(word111[i][0])
+                    
+                    if len(word111[i]) == len(word222[j]):
+                        for k in range(len(word111[i])):
+                            if k >= 1:
+                                distance = abs(word111[i][k]-word222[j][k])
+                                new.append(distance)
+                    
+                    elif len(word111[i]) > len(word222[j]):
+                        len1 = len(word222[j])  
+                        len2 = len(word111[i])+1 
+                        for k in range(len(word222[j])):
+                            if k >= 1:
+                                distance = abs(word111[i][k]-word222[j][k])
+                                new.append(distance)
+                                    
+                                for t in range(len(word111[i][len1:len2])):
+                                    distance = abs(word111[i][len1:len2][t]-word222[j][k])
+                                    new.append(distance)
+                        
+                    else:
+                        len1 = len(word111[i]) 
+                        len2 = len(word222[j])+1 
+                        for k in range(len(word111[i])):
+                            if k >= 1:
+                                distance = abs(word111[i][k]-word222[j][k])
+                                new.append(distance)
+                                    
+                                for t in range(len(word222[j][len1:len2])):
+                                    distance = abs(word222[j][len1:len2][t]-word111[i][k])
+                                    new.append(distance)
+                    distances.append(new)
+        
+        min1 = 100
+        distances2 = []
+  
+        for t in range(len(distances)):
+            if len(distances[t]) == 2:
+                distances2.append(distances[t])
+            else:
+                for s in range(len(distances[t])):
+                    if s != 0:
+                        if distances[t][s] < min1:
+                            min1 = distances[t][s]
+                            distances2.append([distances[t][0],min1])
+        
+        min2 = 100
+        for m in range(len(distances2)):
+            if distances2[m][1] < min2:
+                min2 = distances2[m][1]
+                index  = distances2[m][0]+1
+        
+        print(f"Min distance: sequence {index} (distance={min2})")
 
 
 def main():
-    worms = read_worms("worms.txt")
-    find_short_distance(worms)
-
-
+    
+    worms = read_worms1_file("worms.txt")
+    find_min_daitance_worms2(worms)
 if __name__ == "__main__":
     main()
