@@ -1,2 +1,2 @@
-e text.txt
-d encoded.txt
+e textz.txt
+d encodedz.txt

@@ -1,41 +1,10 @@
-Michael Phelps - Swimming - Gold - June 30, 1985 - USA - 2004, 2008, 2012, 2016 Olympics
-Chad le Clos - Swimming - Silver - April 12, 1992 - South Africa - 2012 Olympics
-Simone Biles - Gymnastics - Gold - March 14, 1997 - USA - 2016 Olympics
-Allyson Felix - Athletics - Silver - November 18, 1985 - USA - 2004, 2008, 2012, 2016, 2020 Olympics
-Jesse Owens - Athletics - Gold - September 12, 1913 - USA - 1936 Olympics
-Grant Hackett - Swimming - Silver - May 9, 1980 - Australia - 2000, 2004, 2008 Olympics
-Carl Lewis - Athletics - Gold - July 1, 1961 - USA - 1984, 1988, 1992, 1996 Olympics
-Larisa Latynina - Gymnastics - Gold - December 27, 1934 - Soviet Union - 1956, 1960, 1964 Olympics
-Mark Spitz - Swimming - Gold - February 10, 1950 - USA - 1968, 1972 Olympics
-Svetlana Khorkina - Gymnastics - Silver - January 19, 1979 - Russia - 1996, 2000, 2004 Olympics
-Jackie Joyner_Kersee - Athletics - Gold - March 3, 1962 - USA - 1988, 1992 Olympics
-Stéphane Lambiel - Figure Skating - Silver - April 2, 1985 - Switzerland - 2006 Olympics
-Carl Schuhmann - Gymnastics - Gold - May 12, 1869 - Germany - 1896 Olympics
-Fanny Blankers_Koen - Athletics - Gold - April 26, 1918 - Netherlands - 1948 Olympics
-Paavo Nurmi - Athletics - Gold - June 13, 1897 - Finland - 1920, 1924, 1928 Olympics
-Al Oerter - Athletics - Gold - September 19, 1936 - USA - 1956, 1960, 1964, 1968 Olympics
-Emil Zátopek - Athletics - Gold - September 19, 1922 - Czechoslovakia - 1948, 1952 Olympics
-Valentina Vezzali - Fencing - Gold - February 14, 1974 - Italy - 1996, 2000, 2004, 2008 Olympics
-Steven Redgrave - Rowing - Gold - March 23, 1962 - Great Britain - 1984, 1988, 1992, 1996, 2000 Olympics
-Birgit Fischer - Canoeing - Gold - February 25, 1962 - Germany - 1980, 1988, 1992, 1996, 2000, 2004 Olympics
-Jan_Ove Waldner - Table Tennis - Gold - October 3, 1965 - Sweden - 1992 Olympics
-Dara Torres - Swimming - Gold - April 15, 1967 - USA - 1984, 1988, 1992, 2000, 2008 Olympics
-Sergey Bubka - Athletics - Gold - December 4, 1963 - Soviet Union - 1988 Olympics
-Jenny Thompson - Swimming - Gold - February 26, 1973 - USA - 1992, 1996, 2000, 2004 Olympics
-Elena Vesnina - Tennis - Gold - August 1, 1986 - Russia - 2020 Olympics
-Tatyana Lebedeva - Athletics - Gold - July 21, 1976 - Russia - 2004 Olympics
-Yelena Isinbayeva - Athletics - Gold - June 3, 1982 - Russia - 2004, 2008 Olympics
-Alexei Nemov - Gymnastics - Gold - May 28, 1976 - Russia - 1996, 2000 Olympics
-Kerri Walsh Jennings - Beach Volleyball - Gold - August 15, 1978 - USA - 2004, 2008, 2012 Olympics
-Misty May_Treanor - Beach Volleyball - Gold - July 30, 1977 - USA - 2004, 2008, 2012 Olympics
-Fu Mingxia - Diving - Gold - August 16, 1978 - China - 1992, 1996 Olympics
-Yao Ming - Basketball - Gold - September 12, 1980 - China - 2000, 2004 Olympics
-Haile Gebrselassie - Athletics - Gold - April 18, 1973 - Ethiopia - 1996, 2000 Olympics
-Bonnie Blair - Speed Skating - Gold - March 18, 1964 - USA - 1988, 1992, 1994 Olympics
-Galina Kulakova - Cross_country skiing - Gold - February 29, 1942 - Soviet Union - 1972, 1976 Olympics
-Aleksandr Karelin - Wrestling - Gold - September 19, 1967 - Soviet Union - 1988, 1992, 1996 Olympics
-Liu Xiang - Athletics - Bronze - July 13, 1983 - China - 2004, 2008, 2012 Olympics
-Ryan Lochte - Swimming - Bronze - August 3, 1984 - USA - 2004, 2008, 2012, 2016, 2020 Olympics
-Gal Fridman - Sailing - Bronze - September 16, 1975 - Israel - 2004 Olympics
-Marketa Vondrousova - Tennis - Bronze - June 28, 1999 - Czech Republic - 2020 Olympics
-Daisuke Takahashi - Figure Skating - Bronze - March 16, 1986 - Japan - 2010 Olympics
+Liam Carter - Rowing - Gold - May 7, 1990 - Canada - 2012, 2016 Olympics
+Sofia Marino - Gymnastics - Silver - October 19, 2001 - Italy - 2020 Olympics
+Kenji Watanabe - Judo - Gold - March 4, 1988 - Japan - 2008, 2012, 2016 Olympics
+Amara Johnson - Athletics - Bronze - June 22, 1995 - USA - 2016, 2020 Olympics
+Lucas Schneider - Swimming - Gold - December 11, 1983 - Germany - 2008, 2012 Olympics
+Elena Popescu - Fencing - Silver - July 8, 1979 - Romania - 2000, 2004 Olympics
+Mateo Fernández - Basketball - Bronze - April 27, 1992 - Argentina - 2016 Olympics
+Hanna Bergström - Cross-country Skiing - Gold - February 3, 1985 - Sweden - 2006, 2010 Olympics
+Dmitri Volkov - Wrestling - Gold - August 14, 1976 - Russia - 2000 Olympics
+Isabella Clarke - Sailing - Silver - September 25, 1989 - Great Britain - 2012, 2016 Olympics

@@ -1,6 +1,6 @@
-Yellow
-Yellow
-Green
 Red
+Green
+Yellow
+Yellow
 Red
 Green

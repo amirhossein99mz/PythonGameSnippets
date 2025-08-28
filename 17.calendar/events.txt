@@ -1,5 +1,5 @@
-10;12;Lunch with boss
-17;17;Work meeting
-17;09;Computer science exam
-100;10;Doctor
-75;20;Dinner with friends
+15;30;Team presentation  
+22;45;Flight to Berlin  
+33;15;Grocery shopping  
+88;10;Call with client  
+60;25;Gym training  

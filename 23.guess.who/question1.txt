@@ -1,3 +1,5 @@
 Hair color = Blond
+
 Hair length = Short
+
 Glasses = YES
