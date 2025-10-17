@@ -27,7 +27,7 @@ def isMaximum(matrix,row,col):
 
 def main():
 
-    altitude = readAltitudeFile("C:/Users/javan/OneDrive/Desktop/program/17.Done/map.txt")
+    altitude = readAltitudeFile("C:/Users/javan/OneDrive/Desktop/program/17.Done/elevation.txt")
     
     sum1 = 0
     count1 = 0
